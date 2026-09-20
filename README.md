@@ -2,7 +2,7 @@
 
 # Moneeb Ur Rahman
 
-### ML for Digital Twins · Reinforcement Learning · LLM Agents
+### ML-Based Digital Twins · Reinforcement Learning · LLM Agents
 
 Computer Science @ NUST (SEECS) · Researcher on **S2Cool**, a £2.8M UKRI project on low-energy cooling
 
@@ -20,7 +20,7 @@ OS: Linux, Windows
 Shell: bash
 Host: National University of Sciences & Technology (NUST), SEECS
 Location: Islamabad, Pakistan
-Focus: ML for Digital Twins, Reinforcement Learning, LLM Agents
+Focus: ML-based digital twins, Reinforcement Learning, LLM Agents
 
 Languages:
   - Python, TypeScript, JavaScript
@@ -55,7 +55,7 @@ Simulation:
   - NVIDIA Omniverse USD Composer
 
 Currently:
-  - ML digital twin of a NIEC air conditioner @ S2Cool
+  - ML-based digital twin of a NIEC air conditioner @ S2Cool
 ```
 
 ---
@@ -65,7 +65,7 @@ Currently:
 **Undergraduate Researcher — MachVIS Lab, SEECS, NUST** · Feb 2026 – Present
 *S2Cool: £2.8M UKRI project led by Northumbria University, 30+ partners*
 
-- Built ML digital twins of three NIEC air-conditioner components on ~6,000 data points from each of 11 experiments in London; R² > 0.93, RMSE < 0.5.
+- Built ML-based digital twins of three NIEC air-conditioner components on ~6,000 data points from each of 11 experiments in London; R² > 0.93, RMSE < 0.5.
 - Applied the models to performance modelling and failure prediction.
 - Integrated them into NVIDIA Omniverse USD Composer via Python for real-time 3D simulation.
 

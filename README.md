@@ -8,7 +8,6 @@ Computer Science @ NUST (SEECS) · Researcher on **S2Cool**, a £2.8M UKRI proje
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/moneeb-ur-rahman)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:moneeburrahman07@gmail.com)
-[![Profile Views](https://komarev.com/ghpvc/?username=moneeb07&style=for-the-badge&color=2ea44f&label=Profile+Views)](https://github.com/moneeb07)
 
 </div>
 
@@ -61,44 +60,39 @@ Currently:
 
 ---
 
-## Selected work
+## Experience
 
-### ML Digital Twin — S2Cool
-*£2.8M UKRI project · Northumbria University · 30+ partners across the UK and Pakistan*
+**Undergraduate Researcher — MachVIS Lab, SEECS, NUST** · Feb 2026 – Present
+*S2Cool: £2.8M UKRI project led by Northumbria University, 30+ partners*
 
-Trained ML models for three NIEC air-conditioner components (humidifier, wet channel, dry channel) on ~6,000 data points from each of **11 physical experiments in London**. Models reach **R² > 0.93, RMSE < 0.5**, and drive performance modelling and failure prediction. Connected to **NVIDIA Omniverse USD Composer** via Python so the 3D model runs as a real-time simulation.
+- Built ML digital twins of three NIEC air-conditioner components on ~6,000 data points from each of 11 experiments in London; R² > 0.93, RMSE < 0.5.
+- Applied the models to performance modelling and failure prediction.
+- Integrated them into NVIDIA Omniverse USD Composer via Python for real-time 3D simulation.
 
-`PyTorch` `scikit-learn` `NVIDIA Omniverse` `Python`
+**AI & Full Stack Engineer — OfficeFlow AI, JFF Consultants** · Jun 2026 – Aug 2026
 
-### [Deep RL Escape Room Agents](https://github.com/moneeb07/Escape-game-rl)
+- Built a tool-calling AI editor for ISO quality-management documents, reducing input tokens per task from 96K to 5K (19×).
+- Built a Django system reading Arabic invoices (PDF, scanned, handwritten) with vision models and AI total verification at 96%+ accuracy.
+- Shipped two production chatbots on a tool-selection architecture; rebuilt the company's agentic AI platform in React.
 
-DQN trained in a custom Gymnasium environment (22 state features, 5 actions) with prioritized experience replay and a target network. The agent collects a clue and escapes while dodging a predictive bullet, a chasing ghost and two moving saws — **90% bullet, 87% saw, 80% ghost avoidance over 1,000 episodes**.
+---
 
-`PyTorch` `Gymnasium` `Pygame` `DQN`
+## Selected projects
 
-### [NLP Job Recommender](https://github.com/moneeb07/nlp_job_recommender)
+**[Deep RL Escape Room Agents](https://github.com/moneeb07/Escape-game-rl)** · PyTorch, Gymnasium
+DQN in a custom 22-feature environment with prioritized replay and a target network. 90% bullet, 87% saw, 80% ghost avoidance over 1,000 episodes.
 
-Two-stage retrieve-and-rank across 5,000 job postings: FAISS retrieves the top 100 via Sentence-BERT embeddings, then a weighted re-ranker scores meaning, skill overlap and experience. IR metrics implemented from scratch — **NDCG@10 rose 0.329 → 0.464 (+41%)** over a TF-IDF baseline.
+**[NLP Job Recommender](https://github.com/moneeb07/nlp_job_recommender)** · Sentence-BERT, FAISS, spaCy
+Two-stage retrieve-and-rank over 5,000 postings. IR metrics implemented from scratch; NDCG@10 0.329 → 0.464 (+41%) against a TF-IDF baseline.
 
-`Sentence-BERT` `FAISS` `spaCy` `scikit-learn`
+**[Kissan Dost](https://github.com/moneeb07/Kissan-Dost)** · scikit-learn, XGBoost
+Crop-yield prediction across 9 crops in 12 countries. Six regression models compared; Random Forest best at R² = 0.9679, plus ARIMA and LSTM forecasts.
 
-### [Kissan Dost](https://github.com/moneeb07/Kissan-Dost)
+**StackShadow** · Gemini, multi-agent — *2nd place, national Google AI Hackathon*
+Three agents audit GitHub repositories against OSV and GitHub Advisories, with cost analysis and a 6-model fallback chain.
 
-Crop-yield prediction over 9 crops across 12 countries using rainfall, temperature, pesticide and soil data. Six regression models compared — **Random Forest best at R² = 0.9679** — plus ARIMA and LSTM forecasts behind a Streamlit app.
-
-`scikit-learn` `XGBoost` `TensorFlow` `Streamlit`
-
-### StackShadow — 2nd place, national Google AI Hackathon
-
-Three Gemini agents audit any GitHub repository for vulnerabilities and outdated dependencies against OSV and GitHub Advisories, with a cost-analysis agent, row-level security and a 6-model fallback chain.
-
-`Gemini` `Multi-agent` `Next.js` `PostgreSQL`
-
-### InterviewAI
-
-Full hiring platform with five AI-graded interview rounds across three services. Code runs against test cases in a **Judge0 sandbox via Redis/BullMQ**, system-design diagrams are scored 0–100 by GPT-4o, and the voice round uses a Vapi agent. CI/CD ships the Docker service to AWS EC2.
-
-`React` `Node.js` `FastAPI` `MongoDB` `Docker` `AWS`
+**InterviewAI** · React, Node.js, FastAPI
+Five AI-graded interview rounds across three services. Judge0 sandbox via Redis/BullMQ, GPT-4o design scoring, Vapi voice round, CI/CD to AWS EC2.
 
 ---
 
@@ -107,7 +101,6 @@ Full hiring platform with five AI-graded interview rounds across three services.
 - Selected to contribute to **S2Cool**, a £2.8M UKRI-funded international research project
 - **133rd of 75,000 applicants** — NUST Entrance Test 2023
 - **2nd place** — national Google AI Hackathon
-- **172nd of 3,000** — AI Hackathon Pakistan 2026 (first Alibaba Cloud hackathon in Pakistan)
 
 ---
 
@@ -115,7 +108,5 @@ Full hiring platform with five AI-graded interview rounds across three services.
 
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=moneeb07&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub stats" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=moneeb07&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-
-<img src="https://github-profile-trophy.vercel.app/?username=moneeb07&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=6" alt="Trophies" />
 
 </div>
